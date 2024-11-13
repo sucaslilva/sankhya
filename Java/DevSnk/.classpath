@@ -2,10 +2,15 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/applauncher-api.jar"/>
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/criptdash.jar"/>
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/dwf.jar"/>
@@ -82,5 +87,10 @@
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/themesync.jar"/>
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/timimob-model.jar"/>
 	<classpathentry kind="lib" path="C:/Lib Java/api_sankhya/timimob-model-4.23b259.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
